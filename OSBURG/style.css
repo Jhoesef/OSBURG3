@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+li {
+    list-style: none;
+    color: orange;
+}
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+    margin-left: 10%;
+}
+.list ul a{
+    padding: 20px;
+    color: #999BA8;;
+}
+.rdiv {
+    margin-right: 100px;
+    
+    
+}
+.logo a {
+    margin-left: 60px;
+    color: #999BA8;;
+}
+ul li .active {
+    color :black
+}
+ul li .c {
+    color: #999BA8;
+}
+.login {
+    color: #999BA8;
+    border: none;
+    background: none;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+    margin-top: 10%;
+}
+
+
+.rdiv {
+    
+    display: flex;
+
+}
+.signup {
+    color: #FFFFFF;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    left: 1334px;
+    
+    text-align: center;
+    display: inline;
+    
+}
+.rrdiv {
+    margin-left: 5%;
+}
+
+button {
+    cursor: pointer;
+    
+    
+}
+
+.toggle-btn {
+    margin-right: 10%;
+    cursor: pointer;
+    color: orange;
+    font-size: 1.5rem;
+    display: none;
+}
+.dropdown-menu {
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+.dropdown-menu.open {
+    height: 300px;
+}
+.dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu .rdiv {
+    padding: 0.7rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu .rdiv .login {
+    margin-bottom: 1.5rem;
+    margin-left: 1.8rem;
+}
+.dropdown-menu .rdiv .signup {
+    width: 100%;
+
+    margin-left: 0.5rem;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0EFE9;
+}
+
+section{
+    
+    display: flex;
+}
+
+.leftdiv{
+    width: 45%;
+    height: 620px;
+    
+}
+
+.rightdiv{
+    width: 40%;
+    height: 620px;
+    
+}
+
+.creative {
+    margin: 60px 70px;
+    color: black;
+}
+
+.exclusive {
+    margin-left: 60px;
+    font-style: lato;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 1%;
+}
+
+.we {
+    margin: 60px 70px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #999BA8;
+}
+
+.email {
+    margin-left: 70px;
+    height: 40px;
+    width: 35%;
+    border: none;
+}
+[type="email"] {
+    padding: .7rem;
+
+}
+
+.connect {
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img1 {
+    border-radius: 100%;
+}
+
+.lucy {
+    display: flex;
+    margin-top: 70px;
+    width: 60%;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cary {
+    margin-top: 8px;
+}
+
+.client {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B7BC;
+    left: 823px;
+}
+
+.lc {
+    left: 823px;
+}
+
+.branch {
+    background-color: white;
+    width: 60%;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.branch h5 {
+    padding-left: 15px ;
+    padding-top: 15px;
+}
+
+.enegagement {
+    margin-top: 0;
+    display: flex;
+}
+
+.engagement h6 {
+    color: #B2B7BC;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    display: flex;
+}
+
+.orange {
+    width: 50%;
+    height: 15px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.oe {
+    display: flex;
+    
+}
+
+.black {
+    width: 50%;
+    height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.ie {
+    display: flex;
+    
+}
+
+.group3 {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.bigphoto {
+    width: 150%;
+    height: auto;
+    margin-top: 0;
+    
+}
+
+.expert {
+    width: 40%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 360px;
+    margin-top: 0;
+    
+}
+
+.expert h5 {
+    font-family: poppins;
+}
+
+
+@media (max-width: 1100px){
+    .list a,
+    .rdiv button {
+        display: none;
+        
+    }
+    .toggle-btn {
+        display: block;
+    }
+    .dropdown-menu .rdiv .login   {
+        display: block;
+        margin-left: 58%;
+        margin-bottom: 0%;
+        margin-top: 0;
+        font-size: 25px;
+        color: black;
+    }
+    .dropdown-menu .rdiv .signup {
+        display: block;
+        margin-left: 50%;
+        width: 50%;
+        padding: 0;
+        margin-top: 8%;
+        text-align: center;
+        padding-left: auto;
+        font-size: 25px;
+
+    }
+    
+    .dropdown-menu {
+        display: block;
+        
+        width: 50%;
+    }
+    li a {
+        margin-left: 12%;
+    }
+    section {
+        display: block;
+    }
+    .leftdiv {
+        width: auto;
+    }
+    .rightdiv{
+        width: 100%;
+        margin-left: 15%;
+    }
+    .bigphoto {
+        display: block;
+        width: 70%;
+        margin-top: 35%;
+        margin-left: 0;
+    }
+    .big {
+        display: block;
+    }
+    .expert {
+        margin-left: 26%;
+        height: 50px;
+        width: 30%;
+        
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .list a,
+    .rdiv button {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+    }
+    .dropdown-menu .rdiv .login   {
+        display: block;
+        
+    }
+    .dropdown-menu .rdiv .signup {
+        display: block;
+        padding-right: auto;
+        width: 50%;
+        padding-left: auto;
+
+        
+
+    }
+    .dropdown-menu {
+        display: block;
+        left: 2rem;
+        width: unset;
+    }
+    /*
+    .dropdown-menu .rdiv .login   {
+        display: block;
+        margin-left: 58%;
+        margin-bottom: 0%;
+        margin-top: 0;
+        font-size: 25px;
+        color: black;
+    }
+    .dropdown-menu .rdiv .signup {
+        display: block;
+        margin-left: 50%;
+        width: 50%;
+        padding: 0;
+        margin-top: 8%;
+        text-align: center;
+        padding-left: auto;
+        font-size: 25px;
+
+    }*/
+}
